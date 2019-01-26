@@ -1,0 +1,59 @@
+.navbar {
+background: #2493b0;
+}
+body{background: none;
+color:#e9c44a !important;}
+
+.NavBar_MapTypeButtonContainerWrapper{display:none;}
+
+@media screen and (max-width: 992px) {
+  html {
+    background-color: #2493b0;
+  }
+  /* body{none !important} */
+}
+.NavBar_MapTypeButtonContainerWrapper{display:none;}
+#myMap {
+     min-height:400px;
+}
+html{
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+#mapsButton {
+     background: none;
+     border: none;
+  }
+.thumbnail {
+     display:inline-block;
+     background:rgba(255,255,255,0.3);
+     border:white 1px solid;
+     border-radius:4px;
+
+}
+.thumbnail img {
+     width:100%;
+}
+@font-face {
+     font-family: 'Glyphicons Halflings';
+     src: url(../fonts/glyphicons-halflings-regular.eot);
+     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+ }
+.glyphicon {
+     position: relative;
+     top: 1px;
+     display: inline-block;
+     font-family: 'Glyphicons Halflings';
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale
+ }
+.glyphicon-heart:before {
+     content: "\e005"
+ }
+ .glyphicon-heart-empty:before {
+     content: "\e143"
+ }

@@ -1,0 +1,43 @@
+#signUpForm {
+    color: #e9c44a;
+    display: none;
+    margin-top: 75px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #logoPic {
+    margin-top: 6%;
+    margin-left: 6%;
+    max-width: 88%;
+    clear: both;
+    /* max-width: 65%; */
+    
+    }
+
+    #top-logo .form-group {
+    clear: both;
+    margin-bottom: 100px;
+    
+    
+    }
+
+    #slogan {
+    clear: both;
+    text-align: center;
+    
+    align-content: center;
+    color: #e9c44a;
+    
+    }
+
+    #form-submit {
+    color: #e9c44a;
+    clear:both;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 75px;
+    
+    }
